@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #17151f;
+  color: #e6e2f2;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 1px solid #34304a;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #5b3f8f;
+}
+
+header p {
+  max-width: 500px;
+  margin: 15px auto 0;
+  color: #a79fc4;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #201d2c;
+  border: 1px solid #34304a;
+  border-radius: 6px;
+}
+
+.avatar {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 1px solid #34304a;
+}
+
+.avatar.roxo {
+  background: #5b3f8f;
+}
+
+.avatar.azul {
+  background: #3d5a8a;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.card-body p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #a79fc4;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: #a79fc4;
+  font-size: 13px;
+  border-top: 1px solid #34304a;
+}
