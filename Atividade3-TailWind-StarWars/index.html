@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordem Estelar</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-black text-gray-200">
+
+  
+  <nav class="border-b border-gray-800 px-6 py-4 flex items-center justify-between">
+    <a href="#inicio" class="text-lg font-bold text-yellow-400">Ordem Estelar</a>
+
+    <ul class="hidden md:flex gap-6 text-sm text-gray-400">
+      <li><a class="hover:text-yellow-400" href="#inicio">Início</a></li>
+      <li><a class="hover:text-yellow-400" href="#sabres">Sabres</a></li>
+      <li><a class="hover:text-yellow-400" href="#jornada">Jornada</a></li>
+    </ul>
+  </nav>
+
+  
+  <section id="inicio" class="max-w-5xl mx-auto px-6 py-16 grid gap-10 md:grid-cols-2">
+
+    <div>
+      <h1 class="text-4xl font-bold mb-4">
+        Uma galáxia muito, muito distante, a um clique de você.
+      </h1>
+      <p class="text-gray-400 text-sm mb-6">
+        Escolha o seu lado da Força, aprenda com os mestres e cumpra missões
+        que atravessam sistemas inteiros.
+      </p>
+      <a href="#jornada" class="inline-block border border-yellow-400 text-yellow-400 text-sm px-4 py-2 hover:bg-yellow-400 hover:text-black">
+        Ver a jornada
+      </a>
+    </div>
+
+    <ul id="sabres" class="border-t border-gray-800">
+      <li class="flex items-center gap-4 py-4 border-b border-gray-800">
+        <span class="w-2 h-12 rounded-full bg-sky-400"></span>
+        <div>
+          <p class="font-semibold text-sm">Sabre azul, o Guardião</p>
+          <p class="text-xs text-gray-500">Defende a paz e protege a Ordem Jedi</p>
+        </div>
+      </li>
+
+      <li class="flex items-center gap-4 py-4 border-b border-gray-800">
+        <span class="w-2 h-12 rounded-full bg-green-400"></span>
+        <div>
+          <p class="font-semibold text-sm">Sabre verde, o Consular</p>
+          <p class="text-xs text-gray-500">Busca o equilíbrio pela sabedoria</p>
+        </div>
+      </li>
+
+      <li class="flex items-center gap-4 py-4 border-b border-gray-800">
+        <span class="w-2 h-12 rounded-full bg-red-500"></span>
+        <div>
+          <p class="font-semibold text-sm">Sabre vermelho, o Sith</p>
+          <p class="text-xs text-gray-500">Poder sem limites, a um preço alto</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+  <section id="jornada" class="bg-gray-900 py-14">
+    <div class="max-w-5xl mx-auto px-6">
+
+      <h2 class="text-2xl font-bold mb-2">A jornada, em quatro etapas</h2>
+      <p class="text-gray-400 text-sm mb-8">
+        Todo herói segue o mesmo caminho, do primeiro chamado até a batalha final.
+      </p>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+        <div class="lg:border-l lg:border-gray-700 lg:pl-4 first:lg:border-l-0 first:lg:pl-0">
+          <span class="text-xl font-bold text-yellow-400">01</span>
+          <h3 class="font-semibold mt-1">Recrutamento</h3>
+          <p class="text-xs text-gray-400 mt-1">
+            Você recebe o chamado, escolhe um lado e se apresenta na base mais próxima.
+          </p>
+        </div>
+
+        <div class="lg:border-l lg:border-gray-700 lg:pl-4">
+          <span class="text-xl font-bold text-yellow-400">02</span>
+          <h3 class="font-semibold mt-1">Treinamento</h3>
+          <p class="text-xs text-gray-400 mt-1">
+            Um mestre ensina a controlar a Força e a montar o seu próprio sabre de luz.
+          </p>
+        </div>
+
+        <div class="lg:border-l lg:border-gray-700 lg:pl-4">
+          <span class="text-xl font-bold text-yellow-400">03</span>
+          <h3 class="font-semibold mt-1">Missão</h3>
+          <p class="text-xs text-gray-400 mt-1">
+            Com a nave pronta, você viaja por planetas distantes para cumprir ordens da Aliança.
+          </p>
+        </div>
+
+        <div class="lg:border-l lg:border-gray-700 lg:pl-4">
+          <span class="text-xl font-bold text-yellow-400">04</span>
+          <h3 class="font-semibold mt-1">Batalha final</h3>
+          <p class="text-xs text-gray-400 mt-1">
+            Todo o treino é testado contra o Império, e o seu nome entra para a história.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
