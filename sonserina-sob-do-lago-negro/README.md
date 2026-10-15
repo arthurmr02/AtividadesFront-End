@@ -31,4 +31,4 @@ Para verificar a compilação de produção, execute `npm run build`.
 
 
 ## Documentação do processo
-A pasta `docs/` contém o briefing, referência visual, pesquisas e fontes, identidade visual, histórico de prompts, decisões de design, checklist de testes e retrospectiva. Os testes técnicos estão explicitamente marcados como pendentes até serem executados no ambiente local.
+A pasta `docs/` contém o briefing, referência visual, pesquisas e fontes, identidade visual, histórico de prompts, decisões de design, checklist de testes e retrospectiva
